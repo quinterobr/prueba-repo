@@ -4,3 +4,4 @@ prueba ultimo comando
 
 Comienza pruebas segunda clase
 commit 2 segunda clase
+commit 3 segunda clase "mensaje sobre perros"
