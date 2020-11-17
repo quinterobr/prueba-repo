@@ -14,5 +14,13 @@ module.exports = {
     mult(a, b) {
         return a || b == 0 ? 0 : a * b;
     },
-    div(a, b) { return a / b }
+    div(a, b) { 
+        if(b == 0){ 
+            let c = a;
+            b = a;
+            b = c;
+            return a / b;
+         } 
+        return a / b;
+    }
 }
